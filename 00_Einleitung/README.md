@@ -7,10 +7,17 @@ Das Projekt besteht grundlegened aus einem selbstgebauten Getränkespender, der 
 
 Die Entwicklung eines smarten Getränkespenders mit Sirup- und Pulverausgabe ist ein iderdisziplinäres Projekt, welches im Rahmen einer Studienarbeit an der dualen Hochschule Mannheim durchgeführt wurde. 
 
-Hintergrund: 
+**Hintergrund**: 
+
 Grundsätzlich ist das Konzept eines automatisierten Getränkespenders nicht neu. Viele Unternehmen und Foschungsgruppen haben bereits Systeme zur automatisierten Getränkezubereitung entwickelt und vermarktet. Eine vielzahl dieser Systeme sind jedoch auf bestimmte Getränkearten beschränkt oder erfordern den Einsatz von speziellen Hülsen oder Patronen für die Zubereitung. Die Idee des smarten Getränkespenders besteht also darin, ein variablen und vielseitiges System zu entwickeln, welches aus generischem Pulver und Sirup Getränke zubereiten kann, ohne auf die Form und Art der Verpackungen angewiesen zu sein. 
 
-Motivation: 
+**Motivation**: 
+
+Die Motivation der Umsetzung des Getränkespenders als Studienarbeit lässt sich mit mehreren Faktoren begründen. Einerseits bietet das Projekt die Möglichkeit erworbene Kenntnisse aus unterschiedlichen Kursen wie Elektrotechnik, Informatik und Sensorik & Aktorik praktisch anzuwenden und zu vertiefen. Andererseits ist es möglich, einen funktionalen Prototypen für das Projekt zu entwickeln, der den Anfoderungen gerecht wird. 
+
+Abgesehen von der Zeitersparnis, die das feritge Projekt mit sich bringt, hat das Projekt auch Potential positive gesellschaftliche und ökologische Auswirkungen zu erzielen. Der Getränkespender kann dazu beitragen, die Verwendung von Einwegverpackungen zu reduzieren und somit den Plastikmüll zu verringern. Abgesehen davon kann ein solches System für Personen mit eingeschränkter Mobilität oder für Personen mit Behinderungen die Zubereitung und Aufnahme von Getränken erleichtern.  
+
+Insgesamt dient die Entwicklung des Projektes als Studienarbeit an einer Hochschule dazu, das erlernte theoretische Wisen in einem praktischen Konsens anzuwenden und zusätzlich ein nützliches System zu entwickeln, das sowohl den Benutzern als auch der Umwelt zugute kommen kann. 
 
 
 ## Zielsetzung des Projekts 
