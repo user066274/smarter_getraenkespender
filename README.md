@@ -46,13 +46,13 @@
 
   Serverseite Raspberry pi  
 
- # Docker  
+    Docker  
 
- # Datenbank  
+    Datenbank  
 
- # NodeRed   
+    NodeRed   
 
- # MQTT Broker  
+    MQTT Broker  
 
   Kommunikation Pi Esp32  
 
@@ -60,17 +60,17 @@
 
   Testkriterien  
 
- # Anforderungen definieren (wie Mischverhältnis?, Reihenfolge der Ausgabe relevant?)  
+    Anforderungen definieren (wie Mischverhältnis?, Reihenfolge der Ausgabe relevant?)  
 
- # Genauigkeit  
+    Genauigkeit  
 
- # Reproduzierbarkeit  
+    Reproduzierbarkeit  
 
- # Geschwindigkeit  
+    Geschwindigkeit  
 
- # Energieverbrauch  
+    Energieverbrauch  
 
- # Fehlererkennung / Behebung  
+    Fehlererkennung / Behebung  
 
 ## Diskussion und Ausblick 
 
