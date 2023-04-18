@@ -1,85 +1,15 @@
 # Inhaltsangabe
 
-## Einleitung  
+1. Einleitung 
 
-  Hintergrund Motivation  
+2. Literaturübersicht
 
-  Zielsetzung und Forschungsfragen  
+3. Material und Methodik
 
-  Abgrenzung des Themas und Definitionen  
+4. Testen
 
-  Aufbau der Arbeit  
+5. Ergebnisse und Ausblick 
 
-## Literaturübersicht  
-
-  Stand der Technik bei Getränkespendern  
-
-  Microcontroller und Eps32  
-
-  Förderschnecke, Pumpe und Ventil 
-
-  Wägezellen und Messtechnik  
-
-  Raspi und Docker  
-
-  Benutzerinteraktion und Interface-Design  
-
-## Material / Methoden  
-
-  Hardwareaufbau  
-
-  Getränkespender und dessen Komponenten  
-
-  Sensoren und Aktoren  
-
-  Software-Architektur (Serverseite) 
-
-## Implementierung  
-
-  ESP32 Steuerung  
-
-  Programminerung, Kalibirierung Förderschnecke  
-
-  Integration Wägezelle und Gewichtsmessung  
-
-  Benutzerinteraktion und Display-Ansteuerung  
-
-  Serverseite Raspberry pi  
-
-    Docker  
-
-    Datenbank  
-
-    NodeRed   
-
-    MQTT Broker  
-
-  Kommunikation Pi Esp32  
-
-## Testen  
-
-  Testkriterien  
-
-    Anforderungen definieren (wie Mischverhältnis?, Reihenfolge der Ausgabe relevant?)  
-
-    Genauigkeit  
-
-    Reproduzierbarkeit  
-
-    Geschwindigkeit  
-
-    Energieverbrauch  
-
-    Fehlererkennung / Behebung  
-
-## Diskussion und Ausblick 
-
-  Zusammenfassung der Arbeit  
-
-  Analyse der Testergebnisse  
-
-  Optimierungsfähigkeit 
-
-## Fazit 
+6. Literaturverzeichnis 
 
 Entwurf der Studienarbeit - Niklas Kausch & Jan-Philipp Werthmann 
