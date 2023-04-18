@@ -2,83 +2,83 @@
 
 ## Einleitung  
 
-### Hintergrund Motivation  
+  Hintergrund Motivation  
 
-### Zielsetzung und Forschungsfragen  
+  Zielsetzung und Forschungsfragen  
 
-### Abgrenzung des Themas und Definitionen  
+  Abgrenzung des Themas und Definitionen  
 
-### Aufbau der Arbeit  
+  Aufbau der Arbeit  
 
 ## Literaturübersicht  
 
-### Stand der Technik bei Getränkespendern  
+  Stand der Technik bei Getränkespendern  
 
-### Microcontroller und Eps32  
+  Microcontroller und Eps32  
 
-### Förderschnecke, Pumpe und Ventil 
+  Förderschnecke, Pumpe und Ventil 
 
-### Wägezellen und Messtechnik  
+  Wägezellen und Messtechnik  
 
-### Raspi und Docker  
+  Raspi und Docker  
 
-### Benutzerinteraktion und Interface-Design  
+  Benutzerinteraktion und Interface-Design  
 
 ## Material / Methoden  
 
-### Hardwareaufbau  
+  Hardwareaufbau  
 
-### Getränkespender und dessen Komponenten  
+  Getränkespender und dessen Komponenten  
 
-### Sensoren und Aktoren  
+  Sensoren und Aktoren  
 
-### Software-Architektur (Serverseite) 
+  Software-Architektur (Serverseite) 
 
 ## Implementierung  
 
-### ESP32 Steuerung  
+  ESP32 Steuerung  
 
-### Programminerung, Kalibirierung Förderschnecke  
+  Programminerung, Kalibirierung Förderschnecke  
 
-### Integration Wägezelle und Gewichtsmessung  
+  Integration Wägezelle und Gewichtsmessung  
 
-### Benutzerinteraktion und Display-Ansteuerung  
+  Benutzerinteraktion und Display-Ansteuerung  
 
-### Serverseite Raspberry pi  
+  Serverseite Raspberry pi  
 
-#### Docker  
+ # Docker  
 
-#### Datenbank  
+ # Datenbank  
 
-#### NodeRed   
+ # NodeRed   
 
-#### MQTT Broker  
+ # MQTT Broker  
 
-### Kommunikation Pi Esp32  
+  Kommunikation Pi Esp32  
 
 ## Testen  
 
-### Testkriterien  
+  Testkriterien  
 
-#### Anforderungen definieren (wie Mischverhältnis?, Reihenfolge der Ausgabe relevant?)  
+ # Anforderungen definieren (wie Mischverhältnis?, Reihenfolge der Ausgabe relevant?)  
 
-#### Genauigkeit  
+ # Genauigkeit  
 
-#### Reproduzierbarkeit  
+ # Reproduzierbarkeit  
 
-#### Geschwindigkeit  
+ # Geschwindigkeit  
 
-#### Energieverbrauch  
+ # Energieverbrauch  
 
-#### Fehlererkennung / Behebung  
+ # Fehlererkennung / Behebung  
 
 ## Diskussion und Ausblick 
 
-### Zusammenfassung der Arbeit  
+  Zusammenfassung der Arbeit  
 
-### Analyse der Testergebnisse  
+  Analyse der Testergebnisse  
 
-### Optimierungsfähigkeit 
+  Optimierungsfähigkeit 
 
 ## Fazit 
 
