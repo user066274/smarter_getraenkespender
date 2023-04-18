@@ -42,5 +42,15 @@ Bei einem Ventil im Kontext des Getränkeautomaten handelt es sich um die Durchf
 
 Pneumatische und hydraulische Ventile verändern ihren Zustand durch einen Druck über ein Medium (zum Beispiel Luft oder Öl). Da der Druck aufwendig erzeugt werden muss und dies in dem kleinen Gehäuse des Getränkespenders kaum möglich sein wird werden diese Ventilarten, wenn keine Komplikationen mit den elektrisch angetriebenen auftritt, nicht weiter betrachtet.
 
-Bei einem elektrischen Stellventil ist in der Regel ein elektrischer Antrieb auf dem Ventil verbaut. Als Antrieb kommen verschiedenste Formen eines Motors in Frage. Dazu gehören auch Steppermotoren und Servomotoren. Das Stellventil besitzt die Möglichkeit je nach Modell stetige Werte zwischen geöffnet und geschlossen anzunehmen. Das ermöglicht eine 
+Bei einem elektrischen Stellventil ist in der Regel ein elektrischer Antrieb auf dem Ventil verbaut. Als Antrieb kommen verschiedenste Formen eines Motors in Frage. Dazu gehören auch Steppermotoren und Servomotoren. Das Stellventil besitzt die Möglichkeit je nach Modell stetige Werte zwischen geöffnet und geschlossen anzunehmen. Dazu dreht der Motor eine Schraube mit einem Verschlussteil in die interne Dichtfläche. Das ermöglicht eine Durchflussregulierung durch die Verringerung des Rohrquerschnitts an dieser Stelle. Bei einem Verbindugnsabbruch oder Stromausfall bleibt das Ventil in der aktuellen Position stehen.
+
+Das elektrische Schaltventil hat (bis auf den Zustandswechsel oder einen Defekt durch Verklemmung) genau zwei Zustände: geöffnet und geschlossen. Die Funktionsweise basiert dabei nahezu immer auf der Verwendung einer elektromagnetischen Spule, welche einen Kolben bewegt. Die verbreiteste Variante besitz eine Rückstellfunktion im stromlosen Zustand. Dabei wird der Kolben durch eine Feder o.ä. Kraft zurück in die NO/NC (normally open/normally closed) Position gerückt, wenn die Spule nicht mehr stromdurchflossen ist. Bei einem Stromausfall hat ein NC Ventil also eine Art Not-Aus.
+
+## Steuern der elektrischen Verbraucher
+
+Sowohl ein elektrischer Motor, als auch das elektrische Ventil können nicht  direkt durch den Mikrocontroller geschaltet werden, da Mikrocontroller nur zum Steuern und somit nur für seine geringe Betriebsspannung ausgelegt ist. Es benötigt eine Verstärkungsstufe, welche die induktiven Lasten schalten kann.
+
+Erste Möglichkeit sind einfache Relais. Es gibt eine große Anzahl an Relais, welche für die Verwendung mit Mikrocontrollern ausgelegt sind. Diese entoppeln die großen induktiven Lasten von dem Steuerschaltkreis des Mikrocontrollers.
+
+Zweite Möglichkeit ist die Verstärkung des Steuersignals mit einem Halbleiter Bauteil. MOSFET's können als spannungsgesteuertes Element zum Schalten der größeren Last verwendet werden. Wichtig ist beim Schalten von induktiven Lasten, dass auf die entstehende Spannungsspitze beim Ausschaltvorgang durch den Abbau des Magnetfelds geachtet wird. Freilaufdioden, welche die Spannungsspitze abführen, schützen die Steuerelektronik. Eine solche Transistorschaltung ist auch verbaut in einem SSR (Solid State Relay).
 
