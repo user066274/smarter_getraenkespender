@@ -61,7 +61,7 @@ Nach umfangreicher Analyse dieser Alternativen und Abwägungen der Vor- und Nach
 "Unter einem Betriebssystem (engl. operating system) versteht man Software, die zusammen mit dem Hardwareeigenschaften des Computers die Basis zum Betrieb bildet und insbesondere die Abarbeitung von Programmen steuert und überwacht."
     Quelle 5
 
-**Auswahl des Betriebssystems des Servers**: 
+### Auswahl des Betriebssystems des Servers: 
 
 Für die Auswahl eines geeigneten Betriebssystems für den Server des smarten Getränkespenders wurden die folgenden Kriterien zur Bewertung potenzieller Betriebssysteme definiert: 
 
