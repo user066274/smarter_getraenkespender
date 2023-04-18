@@ -67,6 +67,33 @@ In der vorliegenden Arbeit wird der Schwerpunkt auf die Entwicklung gesetzt. Im 
     Im Kontext des Projekts fungiert der Raspberry Pi als Server, um benötigte Dienste und Services auszuführen. Ein Beispiel eines solchen Dienstes ist der Webserver. Um Benutzern eine Schnittstelle zur Interaktion mit dem System zu bieten, hostet der Raspberry Pi einen Webserver, während die Datenbank für die Speicherung von Statistiken, Rezepten und weiteren Konfigurationen zuständig ist. Durch die Integration des Raspberry Pis wird eine flexible und erweiterbare Plattform für den Getränkespender geschaffen.  
 
 
+## Allgemeiner Aufbau der Arbeit
+
+In dieser wissenschaftlichen Arbeit zur Entwicklung eines smarten Getränkespenders wird der allgemeine Aufbau so gestaltet, dass sowohl eine klare Struktur als auch eine logische Darstellung und Reihenfolge der wichtigsten Aspekte des Projekts gewährleistet werden kann. Der gesamte Inhalt der Arbeit gliedert sich in sieben Hauptabschnitte: 
+
+**Einleitung**:    
+
+Die Einleitung soll ein groben Überblick über die Themenstellung des Projekts, dessen Hintergrund und Motivation und dessen Ziele bieten. Das Projekt wird in einem größeren Kontext dargestllt und erläutert die Bedeutung des Themas 
+
+**Literaturübersicht**: 
+
+Der Abschnitt Literaturübersicht bietet eine vereinfachte Übersicht den aktuellen Stand der Technik im Bereich des Getränkespenders sowie in den Bereichen der verwandten Technologien. 
+
+**Material und Methodik**: 
+
+Hier werden alle verschiedenen Techniken, Werkzeuge und Ansätze beschrieben, die für die Entwicklung des Getränkespenders angewendet wurden. Hierzu gehört auch die Auswahl der Komponenten, die Programmierung des Mikrocontrollers und die Entwicklung der Benutzeroberfläche. 
+
+**Testen**
+
+Im Abschnitt Testen werden die angewendeten Testverfahren beschrieben. Nachdem die Tests theoretisch untermauert wurden, werden diese durchgeführt und dokumentiert. 
+
+**Ergebnisse und Ausblick** 
+
+Der Schlussfolgerungsteil wertet die Testergebnisse aus und analysiert diese. Allgemein werden die wichtigsten Ergebnisse der Arbeit zusammengefasst und interpretiert. Zudem bietet dieser Abschnitt einen Ausblick auf mögliche zukünftige Verbesserungen des Getränkespenders und bewertet die erzielten Fortschritte im Kontext der ursprünglichen Projektziele und -motivationen. 
+
+**Literaturverzeichnis**
+
+Das Literaturverzeichnis listet alle verwendeten Quellen, die im Laufe der Arbeit zitiert oder refernziert wurden, auf. 
 ## Quellen 
 
 + https://viejournal.springeropen.com/articles/10.1186/s40327-018-0063-8
