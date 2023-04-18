@@ -3,7 +3,17 @@ Heutzutage sind intelligente Geräte und Automatisierungstechnologien im Vormars
 
 Das Projekt besteht grundlegened aus einem selbstgebauten Getränkespender, der sowohl Pulver und Sirup als auch Wasser ausgeben kann. Mit dem Einsatz von Microcontrollern, Sensoren, Aktoren und Datenbanktechnologien wird die Steuerung teilweise automatisiert und bietet dem Benutzer eine intuitive Schnittelstelle zur Interaktion. Die folgende wissenschaftliche Arbeit soll technische Details des Projekts erläutern, die Durchführung von Tests und deren Ergebnisse analysieren und mögliche Anwendungsbereiche und Verbesserungen aufzeigen. 
 
-## Ziel des Projekts 
+## Hintergrund und Motivation 
+
+Die Entwicklung eines smarten Getränkespenders mit Sirup- und Pulverausgabe ist ein iderdisziplinäres Projekt, welches im Rahmen einer Studienarbeit an der dualen Hochschule Mannheim durchgeführt wurde. 
+
+Hintergrund: 
+Grundsätzlich ist das Konzept eines automatisierten Getränkespenders nicht neu. Viele Unternehmen und Foschungsgruppen haben bereits Systeme zur automatisierten Getränkezubereitung entwickelt und vermarktet. Eine vielzahl dieser Systeme sind jedoch auf bestimmte Getränkearten beschränkt oder erfordern den Einsatz von speziellen Hülsen oder Patronen für die Zubereitung. Die Idee des smarten Getränkespenders besteht also darin, ein variablen und vielseitiges System zu entwickeln, welches aus generischem Pulver und Sirup Getränke zubereiten kann, ohne auf die Form und Art der Verpackungen angewiesen zu sein. 
+
+Motivation: 
+
+
+## Zielsetzung des Projekts 
 
 Das Ziel der vorliegenden Arbeit ist es, eine moderne und kostengünstige Lösung eines Getränkespenders zu entwickeln, das dem Benutzer Zeit einspart und zugleich leicht reproduzierbar ist. Mit der Untersuchung der technischen Komponenten und Prozesse soll ein allgemeines Verständnis für die Funktionsweise und vorallem die Anwendbarkeit einer solchen Technologie im alltäglichen Leben gemacht werden. Der Weg für die Entwicklung praktischer und leicht reproduzierbarer Technologien soll geebnet werden, damit diese den Alltag erleichtern und effizienter gestalten. 
 
