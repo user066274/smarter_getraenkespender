@@ -81,7 +81,7 @@ Der Abschnitt Literaturübersicht bietet eine vereinfachte Übersicht den aktuel
 
 **Material und Methodik**: 
 
-Hier werden alle verschiedenen Techniken, Werkzeuge und Ansätze beschrieben, die für die Entwicklung des Getränkespenders angewendet wurden. Hierzu gehört auch die Auswahl der Komponenten, die Programmierung des Mikrocontrollers und die Entwicklung der Benutzeroberfläche. 
+Hier werden alle verschiedenen Techniken, Werkzeuge und Ansätze beschrieben, die für die Entwicklung des Getränkespenders angewendet wurden. Hierzu gehört auch die Auswahl der Komponenten, die Programmierung des Mikrocontrollers und die Entwicklung Servers mit Docker. 
 
 **Testen**:
 
@@ -98,3 +98,8 @@ Das Literaturverzeichnis listet alle verwendeten Quellen, die im Laufe der Arbei
 
 + https://viejournal.springeropen.com/articles/10.1186/s40327-018-0063-8
 + https://www.lmt.uni-saarland.de/sitemedia/lehre/Modulbeschreibungen/kript_uC_Praktikum.pdf
+
+
+
+[]()
+![]()
