@@ -1,9 +1,9 @@
-## Testen 
+# Testen 
 
-### Allgemein 
+## Allgemein 
 Das Projekt "Smarter Getränkespender mit Pulver- und Flüssigkeitsausgabe zielt darauf ab, einen steuerbaren Getränkespender zu entwickeln. Der Getränkespender soll Pulver, Sirup und Leitungswasser in variablen Mengen ausgeben können. Die wichtigsten Komponente des Getränkespenders ist der ESP Microcontroller mit dem Messen, Steuern und Regeln. Um die Funktionalität, die Zuverlässigkeit und die Benutzerfreundlichkeit des Systems sicherzustellen, ist die Durchführung umfangreicher Tests während der Entwicklungsphase von entscheidender Bedeutung. 
 
-#### Wichtige Aspekte der Tests 
+## Wichtige Aspekte der Tests 
 Für folgende Aspkete sind für die Tests von entscheidender Relevanz: 
 
 1. Funktionalität: Um eine richtige Zusammenarbeit der einzelnen Komponenten zu gewährleisten und sicherzustellen, dass das System die korrekten Ergebnisse liefert, sollen Tests hinsichtlich der Funktionalität durchgeführt werden. Dies beinhaltet die Genaugikeit der Wägezelle, die präzise Steuerung der Pumpe und der Fürderschnecke und die Kommunikation des ESP32 mit den entsprechnenden Diensten des Raspberry Pi Servers. 
@@ -18,19 +18,21 @@ Für folgende Aspkete sind für die Tests von entscheidender Relevanz:
 
     HIER NACH IEC NORM SCHAUEN, GIBT ES VORSCHRIFTEN, RICHTLINIEN ODER ANDERE REGELN 
 
-5. Integrationstest: Mit den Durchführen von Integrationstest werden Risiken zum Auftreten von Inkompatibilitätsfehlern minimiert. Es soll sichergestellt werden, dass alle Komponenten innerhalb des Systems auch einwandfrei miteinander arbeiten. 
-    
+5. Integrationstest: Mit dem Durchführen von Integrationstest werden Risiken zum Auftreten von Inkompatibilitätsfehlern minimiert. Es soll sichergestellt werden, dass alle Komponenten innerhalb des Systems auch einwandfrei miteinander arbeiten. 
+
+## Arten der Tests     
 Auf Grundlage der zuvor erörterten Apsekte bezüglich der Testanforderungen wurde die Entscheidung für die folgenden Tests getroffen: 
-    Mischverhältnis und Reihenfolge der Ausgabe 
 
-    Präzision der Ausgabe
++ Mischverhältnis und Reihenfolge der Ausgabe 
 
-    Reproduzierbarkeit 
++ Präzision der Ausgabe
 
-    Geschwindigkeit und Engergieverbrauch 
++ Reproduzierbarkeit 
 
-    Fehlererkennung und Behebung 
++ Geschwindigkeit und Engergieverbrauch 
 
-    Sicherheit 
++ Fehlererkennung und Behebung 
+
++ Sicherheit 
 
 
