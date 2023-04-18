@@ -20,19 +20,37 @@ In der vorliegenden Arbeit wird der Schwerpunkt auf die Entwicklung gesetzt. Im 
     Zudem kann der "smarte" Getränkespender mit anderen Geräte wie dem Raspberry Pi kommunizieren und Daten austauschen. Ein Benutzer kann mit Schnittstellen in Form von Tasten an dem Getränkespender oder über eine Weboberfläche mit dem Gerät interagieren. 
 
 2. Förderschnecke 
+    Die sogenannte Förderschnecke ist eine essenzielle Komponente in der Entwicklung des smarten Getränkespenders. Im Zusammenhang mit dem Getränkespender wird die Förderschnecke verwendet, um eine präzise und kontrollierte Menge an Pulver ausszugeben. Allgemein besteht die Förderschnecke aus einem spirlförmigen Gewinde, das sich in einem Rohr oder Trog um eine zentrale Welle dreht und dabei Material entlang der Achse befördert. 
+    
+    Das ausgegebene Pulver löst sich beim Vermengen mit Wasser auf und kann konsumiert werden. Die trägt maßgeblich zur Reduzierung von Verschwendung bei und ermöglicht gleichzeitig eine einfache Reinigung und Wartung des gesamten Systems. 
+    
+    Später wird die Funktionsweise, das Design und die Anwenduung der Förderschnecke genauer diskutiert. 
 
 3. Wägezelle 
+    Unter wissenschaftlicher Betrachtung im Kontext des Getränkespenders ist die Wägezelle ein entscheidender Bestandteil des System, indem sie präzise Messungen der ausgegebenen Pulver-, Sirup- und Wassermenge ermöglicht. Grundsätzlich ist eine Wägezelle ein elektronischer Sensor, welcher auf dem Prinzip der Dehnungsmessstreifen basiert. Hierbei wird die auf die Wägezelle wirkende Kraft in ein elektrisches Signal umgewandelt, das (ideal) proportianl zur Größe der Kraft ist. Somit kann das Gewicht, das auf die Wägestelle wirkt, berechnet werden. 
+
+    Durch die Integration der Wägezelle soll eine konstante und wiederholbare Qualität des Getränks sichergestellt werden. Die Qulität entspricht in diesem Zusammenhang dem Mischverhältnis von Pulver oder Sirup zu Wasser. 
 
 4. Mikrocontroller (ESP32)
+    Der Mikrocontroller ist im Rahmen des Projekts die wichtigste Komponente. Der Mikrocontroller ist für die Steuerung der einzelenen Komponenten im System verantwortlicht. Fällt der Mikrocontroller aus, ist keine Ausgabe von Getränken mehr möglich. 
+
+    Allgemein ist ein Mikrocontroller ein integrierter Schaltkreis, welcher mindestens einen Prozessor, Speicher und programmierbare Ein- und Ausgänge enthält. Basierend auf den von Entwicklern geschriebenen Programmen ist er in der Lage eine Vielzahl von Aufgaben auszuführen.
+
+    "Mikrocontroller (µC) sind aus modernen technischen Systemen nicht mehr wegzudenken. Unbemerkt verrichten sie in den Bereichen Unterhaltungselektronik, Mobiltelefone, Chipkarten und PCPeripherie-Geräte ihren Dienst. In einem aktuellen Mittelklassewagen sorgen bis zu 80 Mikrocontrollersysteme unter anderem für die korrekte Funktion von Fahrassistenzsystemen, Multimediaanwendungen und der Klimaautomatik. Innovationen und Neuheiten im Automobilbereich basieren zum großen Teil auf mikrocontrollerbasierten Sensor-Aktor-Systemen.". Das genannte Zitat verdeutlicht die entscheidende Rolle von Mikrocontrollern in modernen technischen Systemen. Bezogen auf den "smarten" Getränkespenders verdeutlicht das Zitat die Relevanz und den Einfluss von Mikrocontrollern in der Steuerung von komplexen technischen Systemen. 
+
+    ***Zitat markieren***
+
+    Der in diesem Projekt eingesetzte ESP32 ist nur ein Beispiel von dafür, wie Mikrocontroller Technologien revolutionieren und neue, schlanke Lösungen für verschiedenste Herausforderungen bereitstellen. 
+
 
 5. Raspberry Pi
+    Eine andere Komponete des Systems ist der RaspberryPi. Der Raspberry Pi dient als zentrale Schnittstelle für die generelle Datenverarbeitung und Benutzerinteraktion. 
+    Der Raspberry Pi ist ein kostengünstiger Einplatinencomputer, der trotz seiner geringen Größe genug Rechenleistung mitsich bringt, um vielen Einsatzmöglichkeiten in komplexen Projekten gerecht zu werden. 
 
-
-
-
-
+    Im Kontext des Projekts fungiert der Raspberry Pi als Server, um benötigte Dienste und Services auszuführen. Ein Beispiel eines solchen Dienstes ist der Webserver. Um Benutzern eine Schnittstelle zur Interaktion mit dem System zu bieten, hostet der Raspberry Pi einen Webserver, während die Datenbank für die Speicherung von Statistiken, Rezepten und weiteren Konfigurationen zuständig ist. Durch die Integration des Raspberry Pis wird eine flexible und erweiterbare Plattform für den Getränkespender geschaffen.  
 
 
 ## Quellen 
 
 + https://viejournal.springeropen.com/articles/10.1186/s40327-018-0063-8
++ https://www.lmt.uni-saarland.de/sitemedia/lehre/Modulbeschreibungen/kript_uC_Praktikum.pdf
