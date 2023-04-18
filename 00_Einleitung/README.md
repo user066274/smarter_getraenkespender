@@ -83,15 +83,15 @@ Der Abschnitt Literaturübersicht bietet eine vereinfachte Übersicht den aktuel
 
 Hier werden alle verschiedenen Techniken, Werkzeuge und Ansätze beschrieben, die für die Entwicklung des Getränkespenders angewendet wurden. Hierzu gehört auch die Auswahl der Komponenten, die Programmierung des Mikrocontrollers und die Entwicklung der Benutzeroberfläche. 
 
-**Testen**
+**Testen**:
 
 Im Abschnitt Testen werden die angewendeten Testverfahren beschrieben. Nachdem die Tests theoretisch untermauert wurden, werden diese durchgeführt und dokumentiert. 
 
-**Ergebnisse und Ausblick** 
+**Ergebnisse und Ausblick**: 
 
 Der Schlussfolgerungsteil wertet die Testergebnisse aus und analysiert diese. Allgemein werden die wichtigsten Ergebnisse der Arbeit zusammengefasst und interpretiert. Zudem bietet dieser Abschnitt einen Ausblick auf mögliche zukünftige Verbesserungen des Getränkespenders und bewertet die erzielten Fortschritte im Kontext der ursprünglichen Projektziele und -motivationen. 
 
-**Literaturverzeichnis**
+**Literaturverzeichnis**:
 
 Das Literaturverzeichnis listet alle verwendeten Quellen, die im Laufe der Arbeit zitiert oder refernziert wurden, auf. 
 ## Quellen 
