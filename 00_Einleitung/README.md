@@ -79,6 +79,10 @@ Die Einleitung soll ein groben Überblick über die Themenstellung des Projekts,
 
 Der Abschnitt Literaturübersicht bietet eine vereinfachte Übersicht den aktuellen Stand der Technik im Bereich des Getränkespenders sowie in den Bereichen der verwandten Technologien. 
 
+**Systemarchitektur**: 
+
+Hier wird ein allgemeiner Überblick über die Architekur des gesamten Projekts vermittelt.  
+
 **Material und Methodik**: 
 
 Hier werden alle verschiedenen Techniken, Werkzeuge und Ansätze beschrieben, die für die Entwicklung des Getränkespenders angewendet wurden. Hierzu gehört auch die Auswahl der Komponenten, die Programmierung des Mikrocontrollers und die Entwicklung Servers mit Docker. 
