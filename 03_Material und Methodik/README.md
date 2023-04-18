@@ -3,6 +3,41 @@
 ### Auswahl der Steuerung 
 
 Allgemein wofür bracuht man die steurung, welche arten von steuerungen, für was haben wir uns entschieden, warum dafür, alternativprodukte? 
+Die Steuerung muss folgende grundlegende Aufgaben übernehmen:
+* Benutzereingaben verwalten (Drehencoder, Start-Taster auslesen)
+* Ausgänge schalten (Ventil, Motor, Button LED)
+* UI Darstellen (OLED Display ansteuern)
+* Logik zur Ausgabe (Zeitberechnung, Reaktivität der Wägezelle, ...)
+* Parametrierung (Wägezelle, Wasserfluss, ...)
+* Kommunikation mit Raspberry Pi Server
+
+Die Wahl ist auf einen Mikrocontroller gefallen. Günde dafür waren:
+* Sehr kompaktes Format (passt in den kleinen Automaten)
+* Ausreichend Leistung für Berechnungen
+* Einfache Programmierung durch Vorkenntnisse in "Arduino"
+* Sehr günstiger Anschaffungspreis
+* Alle nötigen Schnittstellen (Bsp. WLAN, I²C, GPIO's, Interrupts, ...)
+* Geringe Stromaufnahme
+* Passende Bibliotheken für Drehencoder, Wägezelle, MQTT, ...
+
+Die Auswahl an Alternativen war nicht groß. Zur Option standen nur noch ein Mikroprozessor (Raspberry Pi o.ä.) und diverse Kleinststeuerungen (z.B. Siemens LOGO! oder ABB CL-LSR). Der Mikroprozessor Raspberry Pi ist durch die folgenden Kriterien für die Getränkeautomaten ausgeschieden:
+* Größe
+* Preis deutlich höher
+* Abwärme
+
+Die erwähnten Kleinststeuerungen stammen aus dem industriellem Sektor und sind darum sowohl auf Hutschienenmontage als auch die Protokolle angepasst. Folgende Aspekte sprechen gegen die Verwendung im Rahmen dieses Projekts:
+* Größe
+* Preis deutlich höher
+* Stromversorgung (meist 24V)
+* Fehlende Schnittstellen für WLAN, MQTT, I²C, ...
+* geringfügige Vorkenntnisse
+
+Die Wahl des Mikrocontrollers ist für das Projekt unter den gegebenen Rahmenbedingungen alternativlos, wie die Erläuterungen in der Literaturübersicht darlegen. Die Arduinos sind im Verhältnis eher auf einer größeren Platine zu erwerben. Hinzu kommt die fehlende native WLAN Schnittstelle und die geringere Rechenleistung. Der Raspberry Pi Pico ist aufgrund seiner Programmierung in MicroPython aus persönlichen Präferenzen ausgeschieden. Zudem sind viele Bibliotheken ausschließlich für die Arduino/ESP Plattform in C/C++ verfügbar. Der ESP vereint alle Anforderungen und ist aus durch mehrere private Projekte bereits gut bekannt. 
+Anhand der oben genannten Gründe für diese Art der Steuerung wird ein explizites Modell aus der ESP-Familie ausgewählt. Die am stärksten vertretenen Chips haben den ESP32 oder den ESP8266 verbaut.
+Der ESP8266 wurde für den Versuchsaufbau verwendet, da dieser noch im privaten Lager vorhanden war. Das Board ist ein D1 Mini, welcher mit 3,3V Logik arbeitet. Er besitzt 11 I/O Pins und kann über die verbaute MicroUSB Schnittstelle zum Flashen mit einem PC verbunden werden.
+Nach einigen Tests der Hardware im Bereich des Drehencoders und der Displayvisualisierung wurde ein ESP32 für den weiteren Bau des Automaten verwendet. Die Tests mit dem ESP32, welcher eine leistungsstärkere und funktionsreichere Version auf Basis des ESP8266 ist, ergaben ein flüssigeres Gesamtbild in der Bedienung. Nachforschungen zu diesem Verhalten sind keine weiteren erfolgt, jedoch ist dies vermutlich auf die höhere Taktfrequenz und eine andere Interruptsteuerung der verwendeten Bibliothek zurück zu führen.
+
+
 
 ### Auswahl der Komponenten zur Ausgabemessung 
 
