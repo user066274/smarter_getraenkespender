@@ -2,7 +2,7 @@
 
 ### Auswahl der Steuerung 
 
-Allgemein wofür bracuht man die steurung, welche arten von steuerungen, für was haben wir uns entschieden, warum dafür, alternativprodukte? 
+
 Die Steuerung muss folgende grundlegende Aufgaben übernehmen:
 * Benutzereingaben verwalten (Drehencoder, Start-Taster auslesen)
 * Ausgänge schalten (Ventil, Motor, Button LED)
@@ -41,8 +41,26 @@ Nach einigen Tests der Hardware im Bereich des Drehencoders und der Displayvisua
 
 ### Auswahl der Komponenten zur Ausgabemessung 
 
-Allgemein: welche verfahren gibt es (durchfluss, gewicht, ...?), welche verfahren gibt es für gewicht (wägezelle, ...)
+    Allgemein: welche verfahren gibt es (durchfluss, gewicht, ...?), welche verfahren gibt es für gewicht (wägezelle, ...)
 
+Um die Mixgetränke auszugeben ist es nötig die Wassermenge und die Pulvermenge möglichst genau zu bestimmen. Die Messung der Wassermenge ist über mehrere Verfahren möglich. Eines davon ist die Bestimmung über die Zeit. Dabei wird angenommen, dass ein parametrierter Wasserfluss (z.B. in l/min) in allen Fällen am Ventil anliegt. Verrechnet man dieses nun mit der Zeit erhält man die ausgegebene Menge. Eine anderes Verfahren ist die Verwendung eines Tachogenerators in Kmbination mit einem Flügelrad in der Messstelle. Dieser misst Impulse, welche durch ausgelagerte Elektronik oder interruptgesteuert über den ESP verarbeitet wird. Ein Impuls entspricht dabei immer einer im Datenblatt festgelegten Wassermenge.
+Der Versuchsaufbau lieferte bereits gute Werte, wie es im Abschnitt Testen zu erkennen ist. Der Aufbau arbeitete mit der zeitbasierten Messmethode. Da die Dichtigkeit der Leitungen im Automaten große Probleme bereitet hatte, wurde auf das Hinzufügen einer zusätzlichen Schwachstelle, an der Undichtigkeiten auftreten könnten verzichtet. Zudem konnte auch nach langer Recherche kein an die verwendeten 1/4 Zoll Schlauchverbindungen passende Messapparatur gefunden werden, welches sowohl das richtige Gewinde besitzt, als auch für die geforderte Durchflussgeschwindigkeit ausgelegt ist.
+Die Entschiedung fiel somit aus Gründen der Einfachheit und der guten Zwischenergebnisse auf die zeitbasierte Messung.
+
+    Pulvermenge in Behälter bestimmen
+    * einzelne Lichtsensoren an wichtigen Standsmessungen (0,10,25,50%) angebracht
+    * Entfernungssensor im Deckel (Ultraschall) unterschiedliche höhe(Schüttgut), zu geringe entfernung störendes kabel im deckel, weniger platz nach oben
+    * Gewicht (Wägezelle, Schaltung, Auflösung, Wertmenge pro Zeit) Jitter durch motorbewegung, frei schwebend
+    * mechanische klappe mit feder die runterdrückt (wegmessung)
+spacer
+
+    Förderschnecke
+    * größe Pulver, menge, geschwindigkeit
+    * Förderband
+    * Kippmechnismus servo
+    * reinigung
+    * zeitpunkt der ausgabe
+    
 
 
 
@@ -90,6 +108,14 @@ Nach umfangreicher Analyse dieser Alternativen und Abwägungen der Vor- und Nach
 
 
 ## Methodiken 
+
+### Auswahl der Programmierumgebung
+    PlatformIO
+    platformio.ini
+    leicht auf andere Geräte übertragbar
+    Bibliotheken automatisch verwaltet durch Datei
+    Serieller Monitor Terminal, etc.
+    export build für OTA over the air
 
 ### Auswahl der Methodiken des Servers 
 
